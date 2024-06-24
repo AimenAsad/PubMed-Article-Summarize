@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PubMed Article Summarizer Result</title>
+    <style>
+        body {
+            background-color: #0a0a23; 
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            color: #333; 
+        }
+        h1, h2 {
+            color: #333; 
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PubMed Summarized Result</h1>
+
+        <h2>Original Article</h2>
+        <textarea rows="10" cols="80">{{ article_text }}</textarea>
+
+        <h2>Summarized Article</h2>
+        <textarea rows="5" cols="80">{{ summarized_text }}</textarea>
+    </div>
+</body>
+</html>

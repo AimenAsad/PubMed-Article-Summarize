@@ -93,6 +93,7 @@ The core summarization logic resides within the `summarize_text` function. This 
 ---
 
 ## ✅ Results and Discussion
+![frontend](templates/frontend.png)
 ![result](templates/result.png)
 The project successfully delivered a functional web application with notable strengths and identified areas for future enhancement.
 
